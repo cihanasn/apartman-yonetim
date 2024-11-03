@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Apartment Management - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2024-11-03 163530](https://github.com/user-attachments/assets/d6ec7741-e212-494c-9b7f-d6041b36b393)
+![Screenshot 2024-11-03 170640](https://github.com/user-attachments/assets/122c0a8d-566d-4211-ba8c-6aff75775ade)
+![Screenshot 2024-11-03 170657](https://github.com/user-attachments/assets/fb24b836-580f-4490-a139-b2177d4389ec)
+![Screenshot 2024-11-03 170709](https://github.com/user-attachments/assets/be04f0ac-421d-4107-80b3-f00fa6f3931a)
+![Screenshot 2024-11-03 163022](https://github.com/user-attachments/assets/62a43374-4767-4cb6-afd3-24238c10ca1b)
 
 ## Available Scripts
 
