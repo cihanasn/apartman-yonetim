@@ -1,69 +1,34 @@
 // src/components/Layout.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Layout = ({ children }) => {
   return (
     <div className="wrapper">
       <div className="sidebar" data-color="white" data-active-color="danger">
         <div className="logo">
-          <a href="https://www.creative-tim.com" className="simple-text logo-mini">
+          <a href="/" className="simple-text logo-mini">
             <div className="logo-image-small">
               <img src={`${process.env.PUBLIC_URL}/img/logo-small.png`} alt="Logo" />
             </div>
           </a>
-          <a href="https://www.creative-tim.com" className="simple-text logo-normal">
-            Creative Tim
+          <a href="/" className="simple-text logo-normal">
+            Apartment Management
           </a>
         </div>
         <div className="sidebar-wrapper">
           <ul className="nav">
             <li>
-              <a href="./dashboard.html">
-                <i className="nc-icon nc-bank"></i>
-                <p>Dashboard</p>
-              </a>
-            </li>
-            <li>
-              <a href="./icons.html">
-                <i className="nc-icon nc-diamond"></i>
-                <p>Icons</p>
-              </a>
-            </li>
-            <li>
-              <a href="./map.html">
-                <i className="nc-icon nc-pin-3"></i>
-                <p>Maps</p>
-              </a>
-            </li>
-            <li>
-              <a href="./notifications.html">
-                <i className="nc-icon nc-bell-55"></i>
-                <p>Notifications</p>
-              </a>
-            </li>
-            <li className="active">
-              <a href="./user.html">
+              <Link to="/user-form">
                 <i className="nc-icon nc-single-02"></i>
-                <p>User Profile</p>
-              </a>
+                <p>Add User</p>
+              </Link>
             </li>
             <li>
-              <a href="./tables.html">
-                <i className="nc-icon nc-tile-56"></i>
-                <p>Table List</p>
-              </a>
-            </li>
-            <li>
-              <a href="./typography.html">
-                <i className="nc-icon nc-caps-small"></i>
-                <p>Typography</p>
-              </a>
-            </li>
-            <li className="active-pro">
-              <a href="./upgrade.html">
-                <i className="nc-icon nc-spaceship"></i>
-                <p>Upgrade to PRO</p>
-              </a>
+              <Link to="/transaction-form">
+                <i className="nc-icon nc-money-coins"></i>
+                <p>Add Transaction</p>
+              </Link>
             </li>
           </ul>
         </div>
@@ -79,7 +44,7 @@ const Layout = ({ children }) => {
                   <span className="navbar-toggler-bar bar3"></span>
                 </button>
               </div>
-              <a className="navbar-brand" href="#" onClick={(e) => e.preventDefault()}>Paper Dashboard 2</a>
+              <a className="navbar-brand" href="#" onClick={(e) => e.preventDefault()}>Dashboard</a>
             </div>
             <button
               className="navbar-toggler"
