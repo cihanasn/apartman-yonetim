@@ -1,5 +1,8 @@
 # Apartment Management - React App
 
+Ders 5 : https://medium.com/@cihanasan1/react-basic-authentication-ile-java-spring-boot-apini-consume-edebilme-ders-5-371daf4804c4
+Ders 6 : https://medium.com/@cihanasan1/react-basic-authentication-ile-java-spring-boot-apini-consume-edebilme-ders-6-51efcb000f6a
+
 ![Screenshot 2024-11-03 163530](https://github.com/user-attachments/assets/d6ec7741-e212-494c-9b7f-d6041b36b393)
 ![Screenshot 2024-11-03 170640](https://github.com/user-attachments/assets/122c0a8d-566d-4211-ba8c-6aff75775ade)
 ![Screenshot 2024-11-03 170657](https://github.com/user-attachments/assets/fb24b836-580f-4490-a139-b2177d4389ec)
