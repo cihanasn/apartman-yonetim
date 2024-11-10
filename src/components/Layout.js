@@ -30,6 +30,12 @@ const Layout = ({ children }) => {
                 <p>Add Transaction</p>
               </Link>
             </li>
+            <li>
+              <Link to="/transactions">
+                <i className="nc-icon nc-money-coins"></i>
+                <p>Transactions</p>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
